@@ -4,6 +4,7 @@
 }
 
 .start-container {
+
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -38,9 +39,35 @@
 }
 
 .funfacts-text {
-  font-family: "Old Standard TT", sans-serif;
+  font-family: "Stardos Stencil", sans-serif;
   font-size: clamp(1.2rem, 2vw, 2.2rem);
-  color: #f04330;
+  color: #b02a22;
   margin-top: 1rem;
   margin-right: 1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 #00000033; 
+}
+
+.start-text{
+  color: #4F4336;
+  font-family: "Old Standard TT", sans-serif;
+  font-size: clamp(1.1rem, 2vw, 3rem);
+  font-weight: 600;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.tommy-start-image{
+  height: auto;
+  width: 55%;
+}
+
+.tommy-container {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(1.1rem, 2vw, 3rem);
+  margin-bottom: 2%;
 }
