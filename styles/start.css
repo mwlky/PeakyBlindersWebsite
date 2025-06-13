@@ -61,6 +61,13 @@
 .tommy-start-image{
   height: auto;
   width: 55%;
+
+  border: 6px solid #4F4336;
+  border-radius: 5px;
+
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeIn 1s ease forwards;
 }
 
 .tommy-container {
@@ -70,4 +77,11 @@
   align-items: center;
   gap: clamp(1.1rem, 2vw, 3rem);
   margin-bottom: 2%;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

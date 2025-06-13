@@ -1,0 +1,30 @@
+.tommy-alfie-title {
+  color: #4f4336;
+  font-family: "Old Standard TT", sans-serif;
+  font-size: clamp(1.5rem, 3.1vw, 3rem);
+  margin: 3% 0 0 0;
+  font-weight: 700;
+}
+
+.tommy-alfie-img {
+  height: auto;
+  width: 100%;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 3px solid #4f4336;
+  width: 55%;
+}
+
+.tommy-alfie-text {
+  color: #4f4336;
+  font-family: "Old Standard TT", sans-serif;
+  font-size: clamp(1.1rem, 2vw, 3rem);
+  font-weight: 600;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 0;
+}
