@@ -70,16 +70,6 @@
   animation: fadeIn 1s ease forwards;
 }
 
-.tommy-container {
-  scroll-margin-top: 80px;
-  margin-top: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: clamp(1.1rem, 2vw, 3rem);
-  margin-bottom: 2%;
-}
-
 @keyframes fadeIn {
   to {
     opacity: 1;
