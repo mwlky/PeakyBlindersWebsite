@@ -1,0 +1,20 @@
+.haircut-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(0.5rem, 2vw, 3rem);
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  flex-wrap: wrap;
+  margin-bottom: 8%;
+}
+
+.haircut-img {
+  height: auto;
+  width: clamp(120px, 30%, 400px);
+  aspect-ratio: 1/2;
+  max-height: 600px;
+  border: 2px solid #5f4f23;
+}
