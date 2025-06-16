@@ -22,3 +22,21 @@ body {
   gap: clamp(1.1rem, 2vw, 3rem);
   margin-bottom: 2%;
 }
+
+.page-title {
+  color: #4f4336;
+  font-family: "Old Standard TT", sans-serif;
+  font-size: clamp(1.5rem, 3.1vw, 3rem);
+  margin: 3% 0 0 0;
+  font-weight: 700;
+}
+
+.page-text {
+  color: #4f4336;
+  font-family: "Old Standard TT", sans-serif;
+  font-size: clamp(1.1rem, 2vw, 3rem);
+  font-weight: 600;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 0;
+}
