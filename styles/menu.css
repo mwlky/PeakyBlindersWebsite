@@ -24,7 +24,7 @@
 
 .menu-button {
   text-decoration: none;
-  font-size: clamp(0.7rem, 1.8vw, 2em);
+  font-size: clamp(0.7rem, 1.4vw, 2em);
   color: #5f4f23;
   text-transform: uppercase;
   font-weight: 400;
@@ -48,6 +48,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  display: none;
 }
 
 .mobile-menu-content {
@@ -79,6 +80,7 @@
   text-align: center;
   width: 100%;
   white-space: nowrap;
+  font-size: clamp(1rem, 5vw, 2em);
 }
 
 .burger {
@@ -119,6 +121,10 @@
 }
 
 @media (max-width: 790px) {
+  .mobile-menu {
+    display: flex;
+  }
+
   .desktop-menu {
     display: none;
   }
