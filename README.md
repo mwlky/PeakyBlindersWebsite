@@ -1,0 +1,1 @@
+https://red-river-06d348503.6.azurestaticapps.net
